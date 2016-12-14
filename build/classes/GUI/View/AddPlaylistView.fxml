@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="109.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller.AddPlaylistViewController">
+   <children>
+      <JFXTextField fx:id="newPlaylistTextField" focusColor="#868686" labelFloat="true" layoutX="24.0" layoutY="23.0" maxWidth="419.0" minWidth="388.0" prefHeight="31.0" prefWidth="388.0" promptText="New Playlist Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="TEXT" />
+         </cursor></JFXTextField>
+      <HBox layoutX="329.0" layoutY="65.0">
+         <children>
+            <JFXButton fx:id="cancelButton" onAction="#exitPlaylistStage" prefHeight="30.0" prefWidth="75.0" style="-fx-background-color: #d8d7d6;" text="Cancel">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+            <Pane prefHeight="30.0" prefWidth="51.0" />
+            <JFXButton fx:id="saveButton" prefHeight="30.0" prefWidth="75.0" style="-fx-background-color: #d8d7d6;" text="Save">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </JFXButton>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

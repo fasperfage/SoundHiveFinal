@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1047.0" prefWidth="1324.0" snapToPixel="false" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Controller.SplashFXMLController">
+   <children>
+      <ImageView fitHeight="1045.0" fitWidth="1335.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Images/6KYL7wj.jpg" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="OVERLAY" fitHeight="74.0" fitWidth="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/logo_frontpage.png" />
+         </image>
+      </ImageView>
+      <Pane opacity="0.45" prefHeight="1111.0" prefWidth="1381.0" style="-fx-background-color: #000000;">
+         <children>
+            <Text fill="WHITE" layoutX="490.0" layoutY="395.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To SoundHive">
+               <font>
+                  <Font name="Bauhaus 93" size="64.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="520.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME">
+               <font>
+                  <Font name="Bauhaus 93" size="64.0" />
+               </font>
+            </Text>
+         </children></Pane>
+   </children>
+</StackPane>
